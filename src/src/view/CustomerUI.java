@@ -28,9 +28,10 @@ public class CustomerUI extends JFrame{
     public CustomerUI(Customer customer){
         this.customer = customer;
         this.customerController = new CustomerController();
+
         this.add(container);
         this.setTitle("Müşteri Ekle/Düzenle");
-        this.setSize(300,500);
+        this.setSize(300,350);
         this.setVisible(true);
         this.setLocationRelativeTo(null);
 
