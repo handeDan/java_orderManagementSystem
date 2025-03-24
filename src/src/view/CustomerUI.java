@@ -31,7 +31,7 @@ public class CustomerUI extends JFrame{
 
         this.add(container);
         this.setTitle("Müşteri Ekle/Düzenle");
-        this.setSize(300,350);
+        this.setSize(300,500);
         this.setVisible(true);
         this.setLocationRelativeTo(null);
 
